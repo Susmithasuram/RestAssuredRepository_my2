@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-14T09:51:53 IST" name="Suite" finished-at="2024-09-14T09:52:02 IST" duration-ms="8719">
+    <groups>
+    </groups>
+    <test started-at="2024-09-14T09:51:53 IST" name="Test" finished-at="2024-09-14T09:52:02 IST" duration-ms="8719">
+      <class name="tests.Class_26_End_to_frameworkTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Class_26_End_to_frameworkTest@30af5b6b]" started-at="2024-09-14T09:51:53 IST" name="setUp" finished-at="2024-09-14T09:51:57 IST" duration-ms="3618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createBooking()[pri:1, instance:tests.Class_26_End_to_frameworkTest@30af5b6b]" started-at="2024-09-14T09:51:57 IST" name="createBooking" finished-at="2024-09-14T09:51:59 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="updateBooking()[pri:2, instance:tests.Class_26_End_to_frameworkTest@30af5b6b]" started-at="2024-09-14T09:51:59 IST" name="updateBooking" finished-at="2024-09-14T09:52:00 IST" depends-on-methods="tests.Class_26_End_to_frameworkTest.createBooking" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBooking -->
+        <test-method signature="deleteBooking()[pri:3, instance:tests.Class_26_End_to_frameworkTest@30af5b6b]" started-at="2024-09-14T09:52:00 IST" name="deleteBooking" finished-at="2024-09-14T09:52:02 IST" depends-on-methods="tests.Class_26_End_to_frameworkTest.createBooking" duration-ms="2260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+      </class> <!-- tests.Class_26_End_to_frameworkTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
