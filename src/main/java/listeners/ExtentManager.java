@@ -34,7 +34,7 @@ public class ExtentManager
 				+"/Reports/API automation report_"+GenericDateUtils.getDate()+".html";
 		
 //		String filePath=System.getProperty("user.dir")
-//				+"/Reports/API automation report_"+new Date()+".html";
+//				+"/Reports/API automation report_"+ new Date()+".html";
 		System.out.println("******Reports can be found at "+filePath+"***********");
 				
 		ExtentSparkReporter reporter=new ExtentSparkReporter(filePath);

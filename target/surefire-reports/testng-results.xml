@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T17:17:50 IST" name="Suite" finished-at="2024-09-13T17:18:04 IST" duration-ms="14130">
+  <suite started-at="2024-09-17T18:01:29 IST" name="Suite" finished-at="2024-09-17T18:01:37 IST" duration-ms="7854">
     <groups>
     </groups>
-    <test started-at="2024-09-13T17:17:50 IST" name="Test" finished-at="2024-09-13T17:18:04 IST" duration-ms="14130">
+    <test started-at="2024-09-17T18:01:29 IST" name="Test" finished-at="2024-09-17T18:01:37 IST" duration-ms="7854">
       <class name="tests.Class_26_End_to_frameworkTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Class_26_End_to_frameworkTest@545b995e]" started-at="2024-09-13T17:17:50 IST" name="setUp" finished-at="2024-09-13T17:17:54 IST" duration-ms="4059" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Class_26_End_to_frameworkTest@36328d33]" started-at="2024-09-17T18:01:29 IST" name="setUp" finished-at="2024-09-17T18:01:32 IST" duration-ms="3110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createBooking()[pri:1, instance:tests.Class_26_End_to_frameworkTest@545b995e]" started-at="2024-09-13T17:17:54 IST" name="createBooking" finished-at="2024-09-13T17:17:59 IST" duration-ms="5078" status="PASS">
+        <test-method signature="createBooking()[pri:1, instance:tests.Class_26_End_to_frameworkTest@36328d33]" started-at="2024-09-17T18:01:32 IST" name="createBooking" finished-at="2024-09-17T18:01:34 IST" duration-ms="1431" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createBooking -->
-        <test-method signature="updateBooking()[pri:2, instance:tests.Class_26_End_to_frameworkTest@545b995e]" started-at="2024-09-13T17:17:59 IST" name="updateBooking" finished-at="2024-09-13T17:18:00 IST" depends-on-methods="tests.Class_26_End_to_frameworkTest.createBooking" duration-ms="1192" status="PASS">
+        <test-method signature="updateBooking()[pri:2, instance:tests.Class_26_End_to_frameworkTest@36328d33]" started-at="2024-09-17T18:01:34 IST" name="updateBooking" finished-at="2024-09-17T18:01:35 IST" depends-on-methods="tests.Class_26_End_to_frameworkTest.createBooking" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateBooking -->
-        <test-method signature="deleteBooking()[pri:3, instance:tests.Class_26_End_to_frameworkTest@545b995e]" started-at="2024-09-13T17:18:00 IST" name="deleteBooking" finished-at="2024-09-13T17:18:04 IST" depends-on-methods="tests.Class_26_End_to_frameworkTest.createBooking" duration-ms="3733" status="PASS">
+        <test-method signature="deleteBooking()[pri:3, instance:tests.Class_26_End_to_frameworkTest@36328d33]" started-at="2024-09-17T18:01:35 IST" name="deleteBooking" finished-at="2024-09-17T18:01:37 IST" depends-on-methods="tests.Class_26_End_to_frameworkTest.createBooking" duration-ms="2148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteBooking -->
