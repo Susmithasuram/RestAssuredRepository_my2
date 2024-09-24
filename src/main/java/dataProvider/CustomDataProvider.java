@@ -10,6 +10,8 @@ public class CustomDataProvider
 	{
 		Object[][] arr=new Object[2][7];
 		
+		System.out.println("Generating data from data provider");
+		
 		  arr[0][0]="susmitha";
 		  arr[0][1]="Dodda";
 		  arr[0][2]=100;
