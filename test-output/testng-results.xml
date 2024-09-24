@@ -1,17 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-18T12:34:36 IST" name="Default suite" finished-at="2024-09-18T12:34:36 IST" duration-ms="100">
+  <suite started-at="2024-09-24T12:09:11 IST" name="Default suite" finished-at="2024-09-24T12:09:17 IST" duration-ms="5788">
     <groups>
     </groups>
-    <test started-at="2024-09-18T12:34:36 IST" name="Default test" finished-at="2024-09-18T12:34:36 IST" duration-ms="100">
-      <class name="tests.Sampletest">
-        <test-method signature="test1()[pri:0, instance:tests.Sampletest@53aac487]" started-at="2024-09-18T12:34:36 IST" name="test1" finished-at="2024-09-18T12:34:36 IST" duration-ms="15" status="PASS">
+    <test started-at="2024-09-24T12:09:11 IST" name="Default test" finished-at="2024-09-24T12:09:17 IST" duration-ms="5788">
+      <class name="tests.Class_26_E2E_framework_DDT">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Class_26_E2E_framework_DDT@78e4deb0]" started-at="2024-09-24T12:09:11 IST" name="setUp" finished-at="2024-09-24T12:09:14 IST" duration-ms="3175" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- tests.Sampletest -->
+        </test-method> <!-- setUp -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Class_26_E2E_framework_DDT@78e4deb0]" started-at="2024-09-24T12:09:14 IST" name="createBooking" data-provider="bookingDetails" finished-at="2024-09-24T12:09:15 IST" duration-ms="1447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[susmitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dodda]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2024-07-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2024-07-10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Lunch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method signature="createBooking(java.lang.String,java.lang.String,int,boolean,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.Class_26_E2E_framework_DDT@78e4deb0]" started-at="2024-09-24T12:09:15 IST" name="createBooking" data-provider="bookingDetails" finished-at="2024-09-24T12:09:17 IST" duration-ms="1124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vrithitha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suram]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2024-07-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2024-07-10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Lunch]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+      </class> <!-- tests.Class_26_E2E_framework_DDT -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

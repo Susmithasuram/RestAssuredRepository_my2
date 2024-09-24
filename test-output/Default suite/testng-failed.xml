@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Class_26_End_to_framework">
+      <class name="tests.Class_26_E2E_framework_DDT">
         <methods>
           <include name="setUp"/>
-          <include name="createBooking"/>
-          <include name="deleteBooking"/>
+          <include name="createBooking" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.Class_26_End_to_framework -->
+      </class> <!-- tests.Class_26_E2E_framework_DDT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -7,7 +7,7 @@ public class Sampletest2
 	@Test
 	public void test1()
 	{
-		System.out.println("****************running test1 method sample test2 class**************8");
+		System.out.println("****************running test1 method sampletest2 class**************8");
 	}
 	
 	@Test
