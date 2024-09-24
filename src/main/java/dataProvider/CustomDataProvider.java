@@ -25,6 +25,14 @@ public class CustomDataProvider
 		  arr[1][4]="2024-07-01";
 		  arr[1][5]="2024-07-10";
 		  arr[1][6]="Lunch";
+		  
+		  arr[2][0]="Aarush";
+		  arr[2][1]="Suram";
+		  arr[2][2]=100;
+		  arr[2][3]=true;
+		  arr[2][4]="2024-07-01";
+		  arr[2][5]="2024-07-10";
+		  arr[2][6]="Dinner";
 		
 		
 		
